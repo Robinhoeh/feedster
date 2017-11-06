@@ -10,6 +10,8 @@ $(document).ready(() => {
   
   $('.btn').on('mouseenter', () => {
     $('.btn').addClass('btn-hover');
-  });
+  }), $('.btn').on('mouseleave', () => {
+  	$('.btn').removeClass('btn-hover');
+  })
   
 }); 
