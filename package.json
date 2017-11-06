@@ -15,5 +15,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom"
+  },
+  "description": "## Available Scripts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robinhoeh/feedster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robinhoeh/feedster/issues"
   }
 }

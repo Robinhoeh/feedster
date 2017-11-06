@@ -1,5 +1,15 @@
-import './index.css';
+import $ from 'jquery';
 
-document.getElementById('root').innerHTML = 'Hello World';
-
-alert('Hello World!');
+$(document).ready(() => {
+	$('.menu').on('mouseenter', () => {
+    $('.nav-menu').show();
+  })
+  $('.nav-menu').on('mouseleave', () => {
+  	$('.nav-menu').hide();
+	});
+  
+  $('.btn').on('mouseenter', () => {
+    $('.btn').addClass('btn-hover');
+  });
+  
+}); 
