@@ -13,5 +13,10 @@ $(document).ready(() => {
   }).on('mouseleave', (event) => {
   	$(event.currentTarget).removeClass('btn-hover');
   })
+
+  $('.postText').on('keyup', (event) => {
+  	$(event.currentTarget).focus();
+  	const post = $(event.currentTarget).val();//GETS users input from .postText
+  });
   
 }); 
